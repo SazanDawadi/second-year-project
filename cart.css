@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3,p{
+    margin: 0;
+}
+
+.margins{
+    width: 84vw;
+    margin:auto;
+    margin-top: 2rem;
+}
+
+
+.cart-header-wrapper{
+    height: 50px;
+    position: relative;
+    display: flex;
+}
+
+.back-icon{
+    position: absolute;
+    left: 5vw;
+    align-self: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+    cursor:pointer;
+}
+
+.cart-header h2{
+    margin: auto;
+    font-weight: 500;
+    letter-spacing: .5px;
+
+}
+/* ========>>>> CRT CARDS <<<<======== */
+.cart-card  {
+    background-color: #f8f8f8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: .6rem;
+}
+ .card-img-wrapper {
+     width: 70px;
+     padding: 10px;
+     margin: 13px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color:#e5fce3;
+     border-radius: .5rem;
+ }
+
+ .card-img-wrapper img{
+     width: 60px;
+
+ }
+
+ .cart-card-info{
+     padding: 13px;
+ }
+ .cart-card-info h3{
+     font-weight: 500;
+     font-size: 1.05rem;
+     margin-bottom: .5rem;
+ }
+
+ .cart-card-info span{
+     font-weight: 500;
+     font-size: 1.3rem;
+ }
+
+ /* .product-cnt-btn {
+     
+ } */
+
+ .remove-btn{
+    width: 30px;
+    height: 30px;
+    background-color:#e3f9e1;
+    border-radius: .5rem;
+    color: #0eb164;
+    font-size: 1.4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+ }
+
+ .product-cnt {
+     margin-right: 12px;
+     margin-left: 12px;
+     font-size: 1rem;
+     font-weight: 500;
+ }
+
+ .add-btn{
+    width: 30px;
+    height: 30px;
+    color:#e3f9e1;
+    border-radius: .55rem;
+    background-color: #0eb164;
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.product-cnt-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+/* ==============>>>>> CHECKOUT SECTION <<<<========= */
+.checkout-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.total-price-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.total-price-section p {
+    font-size: 1.2rem;
+}
+
+.total-price-section span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.checkout-btn{
+    border:none;
+    width: 100%;
+    padding: 13px 0;
+    background-color: #00b761;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+.checkout-btn:hover{
+    transform: translateY(5px);
+}

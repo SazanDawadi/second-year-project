@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.margins{
+    width: 90vw;
+    margin:auto;
+    margin-top: 2rem;
+}
+h1, h2, h3, p{
+    margin: 0;
+}
+a {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+ul, li {
+    margin: 0;
+    list-style: none;
+}
+
+
+/* ---------------- for NAV ----------- */
+.nav-container{
+    width: 90vw;
+    margin:auto;
+    margin-top: 1rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-left h3 {
+    font-weight: 500;
+    font-size: 1.4rem;
+
+}
+.nav-left p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.nav-right{
+    height: 50px;
+    width:50px;
+    background-color: #00b761;
+    border-radius: 20%;
+    color: white;
+    display: flex;
+    align-self:center;
+}
+.cart-icon{
+    color: white;
+    margin: auto;
+    align-self: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+
+/* ----------->>> SEARCHBAR <<<---------------- */
+
+.searchbar {
+    background-color: #f8f8f8;
+    border-radius: .5rem;
+    height: 50px;
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+
+}
+
+.searchbar input{
+    border: none;
+    outline: none;
+    background: none;
+    align-self: center;
+    width: 90%;
+    font-size: 1rem;
+}
+/* .searchbar input::placeholder{
+    font-size: 1rem;
+    font-weight: 100;
+} */
+.search-icon {
+    align-self: center;
+    margin-right: .5rem;
+    font-size: 1.6rem;
+
+}
+
+/* ===========>>>> HERO BANNER <<<=============== */
+
+
+.hero-bannner{
+    background-color: #dbe2d5;
+    height: 190px;
+    position: relative;
+    border-radius: .5rem;
+    padding-left: 20px;
+    display: flex;
+}
+
+.hero-bannner h2{
+    color: #0ebb69;
+    width: 60%;
+    font-weight: 700;
+    align-self: center;
+}
+
+.hero-bannner h2 b{
+    font-weight: 900;
+
+}
+.hero-bannner img{
+    position: absolute;
+    width: 200px;
+    top: 0;
+    right: 0;
+}
+
+ /* ===================>>> HERO BUTTONS <<<<=======  */
+ .category-btn {
+     background-color: #f3f6f2;
+     color: #83927a;
+     font-size: 1rem;
+     padding: 10px 30px;
+     border-radius: 25px;
+     margin-right: 10px;
+     margin-bottom: 10px;
+     cursor: pointer;
+ }
+ .category-btn-wrapper{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+ .category-btn-active, .category-btn:active, .category-btn:hover{
+    background-color: #25ae57;
+    color: white;
+ }
+
+ .best-sellers{
+     display: flex;
+     background-color:#f8f8f8;
+     border-radius: .5rem;
+ }
+
+ .img-wrapper{
+     background-color: #e5fce3;
+     margin: 17px;
+     width: 40%;
+     border-radius: .5rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .img-wrapper img{
+     width: 120px;
+     
+ }
+
+
+ .best-seller-desc {
+     margin: 17px 5px;
+ }
+ .best-seller-desc h3{
+     font-size: 1rem;
+     font-weight: 600;
+     margin-bottom: .6rem;
+
+ }
+ .best-seller-desc p{
+     font-size: .9rem;
+     font-weight: 300;
+     margin-bottom: .8rem;
+
+ }
+
+ .best-seller-price {
+     font-weight: 800;
+     font-size: 1.4rem;
+ }
+ .best-seller-price span{
+     font-weight: 400;
+     font-size: 0.8rem;
+     color:#83927a ;
+ }
+
+ /* ========>>> CARDS <<<======== */
+ .home-products{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
+     gap:15px !important;
+     max-width: 90vw;
+     margin-bottom: 80px;
+ }
+ 
+ 
+ .card {
+     display: flex;
+     flex-direction: column;
+     width: 150px;
+     background-color: #f8f8f8;
+     border-radius: 10px;
+     padding:10px;
+     cursor: pointer;
+     transition: .3s;
+     margin-left: 13px;
+     margin-bottom: 17px;
+     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+ }
+ .card:hover{
+     transform: translateY(5px);
+ }
+ /* .card-img-wrapper{
+     height: ;
+     overflow: hidden;
+ } */
+ .card img{
+     width: 150px;
+     margin-bottom: 1rem;
+ }
+ .card h3{
+    font-size: 1rem;
+    font-weight: 600;
+    
+ }
+
+ .card p{
+    font-size: .9rem;
+    font-weight: 300;
+    margin-bottom: .8rem;
+    color:#83927a;
+ }
+ .card span{
+     font-size: 1.2rem;
+     font-weight: 600;
+ }
+ .card-img-wrapper{
+     height: 160px;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+
+ /* =======================>>>>> NAVBAR BOTTOM 
+ */
+ .navbar-bottom {
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+ }
+ .navbar {
+     height: 60px;
+     padding: 0 20px;
+     background-color:#eeebeb;
+     display: flex;
+     width: 85%;
+     margin: auto;
+     align-items: center;
+     justify-content: space-between;
+     border-top-left-radius: 25px;
+     border-top-right-radius: 25px;
+ }
+
+ .home-icon ,.category-icon, .carts-icon, .user-icon{
+     font-size: 1.5rem;
+     color: #3f5a44;
+     cursor: pointer;
+     padding: 10px;
+     transition: .3s;
+
+ }
+ .home-icon:hover ,.category-icon:hover, .carts-icon:hover, .user-icon:hover {
+     transform: translateY(3px);
+ }
+ .navbar-active {
+     color: #07e97c;
+ }
