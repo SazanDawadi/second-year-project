@@ -207,13 +207,13 @@ nav{
  .card {
      display: flex;
      flex-direction: column;
-     width: 150px;
+     width: 140px;
      background-color: #f8f8f8;
      border-radius: 10px;
      padding:10px;
      cursor: pointer;
      transition: .3s;
-     margin-left: 13px;
+     margin-right: 13px;
      margin-bottom: 17px;
      /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
  }
@@ -225,7 +225,7 @@ nav{
      overflow: hidden;
  } */
  .card img{
-     width: 150px;
+     width: 130px;
      margin-bottom: 1rem;
  }
  .card h3{

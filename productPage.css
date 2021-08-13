@@ -92,6 +92,9 @@ ul, li {
     cursor: pointer;
     padding: 10px;
 }
+.remove-product {
+    font-size: 1.6rem;
+}
 
 /* ======================= >>>>>> PRODUCT INFO SECTION <<<<<<<<<<================ */
 
@@ -118,6 +121,34 @@ ul, li {
     font-size: 1.1rem;
     font-weight: 400;
     color: rgb(164, 168, 164);
+}
+
+
+.add-to-cart-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.add-to-cart-wrapper span{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: black;
+
+}
+.add-to-cart-wrapper a {
+    color: white;
+    background-color: #25ae57;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:.3s ;
+    
+}
+
+.add-to-cart-wrapper a:hover{
+    transform: translateY(2px);
 }
 
 /* ===================>>>>>>>> PRODUCT DEWTAILS <<<<<<<<<<<================ */
